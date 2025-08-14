@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriFinanzas - Soluciones contables para el sector alimenticio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        .food-pattern {
+            background-image: radial-gradient(circle, #f8f4e5 2px, transparent 2px);
+            background-size: 20px 20px;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="font-sans food-pattern">
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center">
+                <div class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-100 mr-3">
+                    <i class="fas fa-calculator text-amber-600 text-xl"></i>
+                    <i class="fas fa-utensils text-amber-800 text-sm ml-1 mt-3"></i>
+                </div>
+                <h1 class="text-2xl font-bold text-gray-800">
+                    <span class="text-amber-600">Nutri</span><span class="text-gray-700">Finanzas</span>
+                </h1>
+            </div>
+            
+            <!-- Navigation -->
+            <nav class="hidden md:block">
+                <ul class="flex space-x-8">
+                    <li><a href="#inicio" class="text-gray-700 hover:text-amber-600 font-medium">Inicio</a></li>
+                    <li><a href="#servicios" class="text-gray-700 hover:text-amber-600 font-medium">Servicios</a></li>
+                    <li><a href="#nosotros" class="text-gray-700 hover:text-amber-600 font-medium">Nosotros</a></li>
+                    <li><a href="#clientes" class="text-gray-700 hover:text-amber-600 font-medium">Clientes</a></li>
+                    <li><a href="#contacto" class="text-gray-700 hover:text-amber-600 font-medium">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="md:hidden text-gray-700">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-gradient py-20">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+                    Contabilidad especializada para <span class="text-amber-600">tu negocio alimenticio</span>
+                </h2>
+                <p class="text-lg text-gray-600 mb-8">
+                    Optimizamos tus finanzas para que puedas enfocarte en lo que realmente importa: deleitar a tus clientes con tus creaciones culinarias.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#contacto" class="bg-amber-600 hover:bg-amber-700 text-white px-6 py-3 rounded-lg font-medium transition duration-300">
+                        Contáctanos
+                    </a>
+                    <a href="#servicios" class="border-2 border-gray-300 hover:border-amber-600 text-gray-700 px-6 py-3 rounded-lg font-medium transition duration-300">
+                        Nuestros servicios
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="https://placehold.co/600x400" alt="Equipo de contadores analizando gráficos financieros con elementos de comida de fondo" class="rounded-lg shadow-xl">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Nuestros Servicios Especializados</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Soluciones diseñadas específicamente para las necesidades del sector alimenticio
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="service-card bg-white rounded-xl shadow-md p-6 transition duration-300">
+                    <div class="w-14 h-14 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-file-invoice-dollar text-amber-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Contabilidad Fiscal</h3>
+                    <p class="text-gray-600 mb-4">
+                        Cumplimiento normativo específico para establecimientos de comida, manejo de IVA en ingredientes y materias primas.
+                    </p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-amber-600 mt-1 mr-2"></i>
+                            <span>Declaraciones mensuales y anuales</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-amber-600 mt-1 mr-2"></i>
+                            <span>Esquemas óptimos para restaurantes</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card bg-white rounded-xl shadow-md p-6 transition duration-300">
+                    <div class="w-14 h-14 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-chart-line text-amber-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Análisis de Costos</h3>
+                    <p class="text-gray-600 mb-4">
+                        Control detallado de costos de ingredientes, mermas y rendimiento por platillo para maximizar tu rentabilidad.
+                    </p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-amber-600 mt-1 mr-2"></i>
+                            <span>Tablas de costos por receta</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-amber-600 mt-1 mr-2"></i>
+                            <span>Análisis de proveedores</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card bg-white rounded-xl shadow-md p-6 transition duration-300">
+                    <div class="w-14 h-14 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-users text-amber-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Nóminas y Seguridad Social</h3>
+                    <p class="text-gray-600 mb-4">
+                        Gestión de personal para cocinas y establecimientos con rotación de turnos y pagos variables.
+                    </p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-amber-600 mt-1 mr-2"></i>
+                            <span>Cálculo de propinas y reparto</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-amber-600 mt-1 mr-2"></i>
+                            <span>Control de horarios especiales</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card bg-white rounded-xl shadow-md p-6 transition duration-300">
+                    <div class="w-14 h-14 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-cash-register text-amber-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Punto de Venta</h3>
+                    <p class="text-gray-600 mb-4">
+                        Sistemas integrados de cobro con control de inventario automático y análisis de ventas por producto.
+                    </p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-amber-600 mt-1 mr-2"></i>
+                            <span>Integración con cocina</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-amber-600 mt-1 mr-2"></i>
+                            <span>Reportes de platillos más vendidos</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="service-card bg-white rounded-xl shadow-md p-6 transition duration-300">
+                    <div class="w-14 h-14 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-shield-alt text-amber-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Auditoría Sanitaria-Financiera</h3>
+                    <p class="text-gray-600 mb-4">
+                        Cumplimiento simultáneo de regulaciones sanitarias y financieras para tu establecimiento.
+                    </p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-amber-600 mt-1 mr-2"></i>
+                            <span>Preparación para inspecciones</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-amber-600 mt-1 mr-2"></i>
+                            <span>Control de inventarios sanitarios</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="service-card bg-white rounded-xl shadow-md p-6 transition duration-300">
+                    <div class="w-14 h-14 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-lightbulb text-amber-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Consultoría Estratégica</h3>
+                    <p class="text-gray-600 mb-4">
+                        Planes de crecimiento y expansión para franquicias y cadenas de restaurantes.
+                    </p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-amber-600 mt-1 mr-2"></i>
+                            <span>Análisis de ubicaciones</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-amber-600 mt-1 mr-2"></i>
+                            <span>Modelos de franquicias</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <img src="https://placehold.co/600x400" alt="Equipo de NutriFinanzas trabajando en un espacio de oficina moderno con elementos decorativos de comida" class="rounded-lg shadow-xl">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Nuestra Experiencia en el Sector</h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        En NutriFinanzas combinamos años de experiencia en contabilidad con un profundo conocimiento del sector gastronómico. Nuestros fundadores provienen tanto del mundo financiero como del culinario, lo que nos da una perspectiva única.
+                    </p>
+                    <div class="grid grid-cols-2 gap-6 mb-8">
+                        <div>
+                            <h3 class="text-2xl font-bold text-amber-600 mb-2">15+</h3>
+                            <p class="text-gray-600">Años de experiencia</p>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-amber-600 mb-2">200+</h3>
+                            <p class="text-gray-600">Clientes satisfechos</p>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-amber-600 mb-2">95%</h3>
+                            <p class="text-gray-600">Clientes que nos recomiendan</p>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-amber-600 mb-2">24/7</h3>
+                            <p class="text-gray-600">Soporte disponible</p>
+                        </div>
+                    </div>
+                    <a href="#contacto" class="inline-block bg-amber-600 hover:bg-amber-700 text-white px-6 py-3 rounded-lg font-medium transition duration-300">
+                        Conoce más sobre nosotros
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section id="clientes" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Confían en Nosotros</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Empresas del sector alimenticio que han mejorado sus finanzas con nuestra ayuda
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="flex items-center justify-center p-4 bg-gray-50 rounded-lg">
+                    <img src="https://placehold.co/150x80" alt="Logotipo de panadería Dulce Hogar" class="h-12">
+                </div>
+                <div class="flex items-center justify-center p-4 bg-gray-50 rounded-lg">
+                    <img src="https://placehold.co/150x80" alt="Logotipo de restaurante Sabores del Mar" class="h-12">
+                </div>
+                <div class="flex items-center justify-center p-4 bg-gray-50 rounded-lg">
+                    <img src="https://placehold.co/150x80" alt="Logotipo de pastelería La Delicia" class="h-12">
+                </div>
+                <div class="flex items-center justify-center p-4 bg-gray-50 rounded-lg">
+                    <img src="https://placehold.co/150x80" alt="Logotipo de cafetería Aroma Perfecto" class="h-12">
+                </div>
+            </div>
+            
+            <!-- Testimonials -->
+            <div class="mt-20 grid md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl">
+                    <div class="flex items-center mb-4">
+                        <img src="https://placehold.co/80x80" alt="Retrato de Carlos Méndez, dueño de restaurante" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-800">Carlos Méndez</h4>
+                            <p class="text-gray-600">Dueño, "Sabores Tradicionales"</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "NutriFinanzas no solo nos ayudó a organizar nuestra contabilidad, sino que identificó áreas
+
